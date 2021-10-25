@@ -1,0 +1,82 @@
+#presale-form-container {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999999999999999;
+  justify-content: center;
+  align-items: center;
+}
+
+.presale-form-iframe {
+  margin-top: 2rem;
+  width: 80%;
+  height: 100%;
+}
+
+.close-presale-form {
+  position: absolute;
+  top: 1rem;
+  right: 9rem;
+}
+
+@media screen and (max-width: 903px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 6rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 5rem;
+  }
+}
+
+#presale-concept-container,
+#milestone-container,
+#whitepaper-container {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999999999999999;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 903px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 6rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .close-presale-form {
+    top: 5rem;
+    right: 5rem;
+  }
+}
+
+.ion-social-linkedin {
+  color: #0077b5;
+  font-size: 30px;
+}
